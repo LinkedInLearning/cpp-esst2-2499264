@@ -44,7 +44,7 @@ int main()
 
     std::string text= "Hello World!\n";
 
-    auto dispWithProberTextSize = [=](const bool dispUpper){
+    auto dispWithProperTextSize = [=](const bool dispUpper){
         if(dispUpper)
         {
             for(int i=0 ; i<text.size() ; i++)
@@ -57,9 +57,9 @@ int main()
         }
     };
 
-    dispWithProberTextSize(dispUpper);
+    dispWithProperTextSize(dispUpper);
     dispUpper = false;
-    dispWithProberTextSize(dispUpper);
+    dispWithProperTextSize(dispUpper);
 
     return 0;
 }
