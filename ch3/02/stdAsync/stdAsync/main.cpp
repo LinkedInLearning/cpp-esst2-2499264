@@ -1,24 +1,18 @@
 #include <iostream>
 #include <future>
 #include <string>
-#include <mutex>
-
-std::mutex gMutex;
 
 struct Concurrent {
     void test1(const int i, const std::string& str)
     {
-        std::lock_guard<std::mutex> lock(gMutex);
         std::cout << str << ' ' << i << std::endl;
     }
     void test2(const std::string& str)
     {
-        std::lock_guard<std::mutex> lock(gMutex);
         std::cout << str << std::endl;
     }
     int operator()(const int i)
     {
-        std::lock_guard<std::mutex> lock(gMutex);
         std::cout << i << std::endl;
         return i + 10;
     }
