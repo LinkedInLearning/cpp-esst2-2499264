@@ -9,9 +9,6 @@ T add (const T a, const T b)
 
 int main()
 {    
-    const std::string helloTxt = "Hello ";
-    const std::string worldTxt = "World";
-
     float fSum = add<int>(3.5f, 3.6f);
     float iSum = add<float>(3, 3);
 
