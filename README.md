@@ -1,10 +1,10 @@
-# C++ Grundkurs - Teil 2
+# C++ Grundkurs 2: Templates, Funktionale Programmierung, Standard Template Library (STL), Fehlerbehandlung
 
-Dies ist das Repository für den **LinkedIn Learning** Kurs `[COURSENAME]`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
+Dies ist das Repository für den **LinkedIn Learning** Kurs `C++ Grundkurs 2: Templates, Funktionale Programmierung, Standard Template Library (STL), Fehlerbehandlung`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
-![COURSENAME][lil-thumbnail-url][Copy&Past Image from LiL-Buddy] 
+![image](https://user-images.githubusercontent.com/61017085/202997591-1382ce24-9e25-4633-b7bf-b3446507015f.png) 
 
-[COURSEDESCRIPTION]
+Im zweiten Teil seines C++ Kurses macht Sie Gerhard Stein mit weiteren interessanten Features der vielseitigen Programmiersprache vertraut: Lernen Sie die Templates kennen und kombinieren Sie alles, was Sie bereits im ersten Teil gelernt haben. Zudem begegnet Ihnen ein zentrales Feature des modernen Programmierens: das funktionale Programmier-Paradigma. Dann führt Sie Gerhard Stein in die Tiefen der Standard Template Library (STL)  ein und macht Sie dort mit den wichtigsten Datenstrukturen vertraut. Weitere Kapitel widmen sich dem parallelen Programmieren und der effizienten Fehlerbehandlung im C++-Code. Mit der Hilfe von zahlreichen Challenges/Solutions-Einheiten können Sie Ihr Wissen immer wieder testen und anschließend Ihre Lösung mit der Ihres Trainers vergleichen
 
 ## Anleitung
 
@@ -13,35 +13,23 @@ Dieses Repository hat Branches für jedes Video im Kurs. Verwenden Sie das Auskl
 ## Branches
 
 Die Git Branches sind passend zu den Videos im Kurs strukturiert. Die Namenskonvention lautet `Kapitel#_Video#`. Der Branch `02_03` beinhaltet zum Beispiel die Übungen für das dritte Video im zweiten Kapitel. 
-Einige Branches haben einen Anfangsstatus (`b`) für "beginning" und einen Endstatus (`e`). Der Branch mit dem `e` am Ende beinhaltet in diesem Fall stets den Code der am Ende des Videos zu sehen ist. Der `master` Branch beinhaltet den initialen Quellcode und wird nicht für die Übungen innerhalb des Kurses genutzt.
-
-Wenn Sie von einem Branch nach Änderungen zum nächsten Branch wechseln, erhalten Sie möglicherweise die folgende Meldung:
-
-```
-error: Your local changes to the following files would be overwritten by checkout:        [files]
-Please commit your changes or stash them before you switch branches.
-Aborting
-```
-
-Dieses Problem lösen Sie wie folgt:
-    Add changes to git using this command: git add .
-    Commit changes using this command: git commit -m "some message"
 
 ## Installation
 
 1. Um diese Übungsdateien nutzen zu können, müssen Sie folgendes installiert haben:
-   - [list of requirements for course]
+   - C++ Build-tools
+   - Eine IDE (Am besten QtCreator oder Visual Studio Code)
 2. Klonen Sie das Repository in Ihre lokale Maschine unter Verwendung von terminal (Mac), CMD (Windows) oder ein anderes Werkzeug mit grafischer Bedienoberfläche wie SourceTree.
-3. [Course-specific instructions]
+3. ```git clone git@github.com:LinkedInLearning/cpp-esst2-2499264.git```
 
 ### Autor
 
-**[Name hier eintragen]**
+**Gerhard Stein**
 
-_[Berufsbezeichnung hier eintragen]_
+_Maschinenbau-Ingenieurinformatik/Senior Software-Ingenieur_
 
-Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/name_des_autors) an.
+Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linkedin.com/learning/instructors/dr-gerhard-stein) an.
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
+[lil-course-url]: https://www.linkedin.com/learning/c-plus-plus-grundkurs-1-sprachgrundlagen-oop-speicherverwaltung-vererbung
 [lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
