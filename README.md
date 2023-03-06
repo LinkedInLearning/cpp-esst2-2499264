@@ -2,7 +2,7 @@
 
 Dies ist das Repository für den **LinkedIn Learning** Kurs `C++ Grundkurs 2: Templates, Funktionale Programmierung, Standard Template Library (STL), Fehlerbehandlung`. Den gesamten Kurs finden Sie auf [LinkedIn Learning][lil-course-url].
 
-![image](https://user-images.githubusercontent.com/61017085/202997591-1382ce24-9e25-4633-b7bf-b3446507015f.png) 
+![COURSENAME][lil-thumbnail-url] 
 
 Im zweiten Teil seines C++ Kurses macht Sie Gerhard Stein mit weiteren interessanten Features der vielseitigen Programmiersprache vertraut: Lernen Sie die Templates kennen und kombinieren Sie alles, was Sie bereits im ersten Teil gelernt haben. Zudem begegnet Ihnen ein zentrales Feature des modernen Programmierens: das funktionale Programmier-Paradigma. Dann führt Sie Gerhard Stein in die Tiefen der Standard Template Library (STL)  ein und macht Sie dort mit den wichtigsten Datenstrukturen vertraut. Weitere Kapitel widmen sich dem parallelen Programmieren und der effizienten Fehlerbehandlung im C++-Code. Mit der Hilfe von zahlreichen Challenges/Solutions-Einheiten können Sie Ihr Wissen immer wieder testen und anschließend Ihre Lösung mit der Ihres Trainers vergleichen
 
@@ -32,4 +32,4 @@ Sehen Sie sich andere Kurse des Autors auf [LinkedIn Learning](https://www.linke
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 [lil-course-url]: https://www.linkedin.com/learning/c-plus-plus-grundkurs-1-sprachgrundlagen-oop-speicherverwaltung-vererbung
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2499264/2499264-1668429608484-16x9.jpg
